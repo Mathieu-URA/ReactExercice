@@ -1,0 +1,135 @@
+
+.header{
+    width: 100%;
+    padding: 40px 0px;
+    background: url("../img/akatsuki.jpg") #4f4f4f;
+    box-shadow: 0px 0px 15px #333;
+    color:azure;
+    padding-left: 50px;
+}
+
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    width: 65vw;
+    
+    
+    
+    
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+    margin-top: -80px;
+    object-fit: cover;
+}
+
+.prez{
+    border-bottom: 2px dashed #ccc;
+
+    
+}
+
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-flex p:first-child{
+    flex: 0 0 40%;
+}
+.contact-flex p:last-child{
+    flex: 0 0 60%;
+}
+
+
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp-info{
+    display: flex;
+    flex-flow: column wrap;
+}
+.exp-logo{
+    flex: 0 0 40%;
+    max-width: 100px;
+    margin-left: 50px;
+}
+.exp-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.exp-desc{
+    margin-left: 150px;
+    text-align: left;
+    
+    
+}
+.exp img{
+    margin-top: 50px;
+    width: 150%;
+}
+.exp h3{
+    font-size:  1.2em;
+    
+}
+.exp h4{
+    font-size:  1em;
+    font-weight: normal;
+}
+
+.Formation {
+    display: flex;
+    flex-direction: column;
+    
+}
+.Formation h2{
+    text-align: center;
+}
+
+.Formation .exp-desc{
+    margin-left: 300px;
+    text-align: left;
+    width: 30rem;
+    
+}
+
+
+.interet{
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.interet img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #555;
+}
+
+
+
+.centre h2{
+    text-align: center;
+
+}
